@@ -16,8 +16,8 @@ def main():
 
     while True:
         print(BANNER)
-        print("1. Encrypt")
-        print("2. Decrypt")
+        print("1. Encrypt (OTP)")
+        print("2. Decrypt (OTP)")
         choice = input("Choose an option (1 or 2): ")
 
         if choice == '1':
